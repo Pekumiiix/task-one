@@ -4,9 +4,9 @@ const currentTime = document.getElementById('time')
 function getTime() {
     const now = new Date()
 
-    const secondsTime = now.getSeconds()
-    const minutesTime = now.getMinutes()
-    const hourTime = now.getHours()
+    const secondsTime = now.getUTCSeconds()
+    const minutesTime = now.getUTCMinutes()
+    const hourTime = now.getUTCHours()
     const milliSeconds = now.getMilliseconds()
     
     currentTime.innerHTML ='Time: ' + hourTime + 'hr(s)' + ' ' + minutesTime + 'min(s)' + ' ' + secondsTime + 'sec(s)' + ' ' + milliSeconds + "ms"
