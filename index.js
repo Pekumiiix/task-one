@@ -18,19 +18,19 @@ function getDay() {
     const dayTime = d.getDay()
 
     if (dayTime == 1) {
-        currentDay.innerHTML = 'Day: Monday'
+        currentDay.innerHTML = 'Monday'
     } else if (dayTime == 2) {
-        currentDay.innerHTML = 'Day: Tuesday'
+        currentDay.innerHTML = 'Tuesday'
     } else if (dayTime == 3) {
-        currentDay.innerHTML = 'Day: Wednesday'
+        currentDay.innerHTML = 'Wednesday'
     } else if (dayTime == 4) {
-        currentDay.innerHTML = 'Day: Thursday'
+        currentDay.innerHTML = 'Thursday'
     } else if (dayTime == 5) {
-        currentDay.innerHTML = 'Day: Friday'
+        currentDay.innerHTML = 'Friday'
     } else if (dayTime == 6) {
-        currentDay.innerHTML = 'Day: Saturday'
+        currentDay.innerHTML = 'Saturday'
     } else if (dayTime == 0) {
-        currentDay.innerHTML = 'Day: Sunday'
+        currentDay.innerHTML = 'Sunday'
     }
 }
 //getDay()
